@@ -1,4 +1,4 @@
-angular.module('angularfireSlackApp')
+angular.module('ngMessageApp')
   .controller('ProfileCtrl', function($state, md5, auth, profile, $log){
     var profileCtrl = this;
     profileCtrl.profile = profile;

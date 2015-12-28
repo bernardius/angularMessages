@@ -1,4 +1,4 @@
-angular.module('angularfireSlackApp')
+angular.module('ngMessageApp')
   .factory('Messages', function($firebaseArray, FirebaseUrl){
     var channelMessagesRef = new Firebase(FirebaseUrl+'channelMessages');
 

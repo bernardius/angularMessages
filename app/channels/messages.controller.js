@@ -1,4 +1,4 @@
-angular.module('angularfireSlackApp')
+angular.module('ngMessageApp')
   .controller('MessagesCtrl', function(profile, channelName, messages){
     var messagesCtrl = this;
     messagesCtrl.messages = messages;
