@@ -22,6 +22,10 @@ body {
   width:100%;
 }
 
+.page-header.center h1{
+  text-align: center;
+}
+
 .sidebar {
   display:inline-block;
   width:19.5%;
@@ -33,10 +37,14 @@ body {
   padding-bottom:100px;
 }
 
+body .page-header {
+  border-bottom: 1px solid #DCDCDC;
+}
+
 .sidebar .name {
   margin: 0px 15px;
   padding: 15px 0px 15px 0px;
-  border-bottom: 1px solid #555459;
+  border-bottom: 1px solid #DCDCDC;
   text-align: center;
 }
 
@@ -199,4 +207,12 @@ body {
   color:#ccc;
   font-weight: normal;
   font-size:10px;
+}
+
+.input-group .form-control {
+  margin-bottom: 10px;
+}
+
+body .input-group {
+  display: block;
 }
