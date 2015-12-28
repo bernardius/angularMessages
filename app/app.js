@@ -19,7 +19,7 @@ angular
       .state('home', {
         url:'/',
         templateUrl:'home/home.html',
-        resolove: {
+        resolve: {
           requireNoAuth:function($state, Auth){
             return Auth.$requireAuth().then(function(auth){
               $state.go('channels');

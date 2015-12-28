@@ -12,7 +12,7 @@ angular.module('angularfireSlackApp')
         return users.$getRecord(uid).displayName;
       },
       getGravatar: function(uid) {
-        return '//www.gravatar.com/avatar/' + users.$getRecord(uid).emailHash;
+        return '//s.gravatar.com/avatar/' + users.$getRecord(uid).emailHash;
       },
       setOnline: function(uid){
         var connected = $firebaseObject(connectedRef);
@@ -28,6 +28,5 @@ angular.module('angularfireSlackApp')
       },
       all: users
     };
-
     return Users;
   });
